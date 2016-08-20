@@ -1,0 +1,6 @@
+framework module Pods_bluntApp {
+  umbrella header "Pods-bluntApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
