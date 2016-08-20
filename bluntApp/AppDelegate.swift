@@ -44,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func webRequestTest() {
         
-        Alamofire.request(.GET, "https://httpbin.org/get", parameters: ["foo": "bar"])
+        Alamofire.request(.GET, "http://localhost:3000/users/facebook/login", parameters: ["foo": "bar"])
             .responseJSON { response in
                 print(response.request)  // original URL request
                 print(response.response) // URL response
