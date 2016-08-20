@@ -1,10 +1,35 @@
 PODS:
   - Alamofire (3.4.1)
+  - IQKeyboardManagerSwift (4.0.4)
+  - ObjectMapper (1.4.0)
+  - OHHTTPStubs/Core (5.1.0)
+  - OHHTTPStubs/Swift (5.1.0):
+    - OHHTTPStubs/Core
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - IQKeyboardManagerSwift
+  - ObjectMapper
+  - OHHTTPStubs/Swift
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 73670b94292b8d8496c398a973f56ac67789ba9f
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  IQKeyboardManagerSwift: e0964d04d6a29b71016fd346dca13ecb80a2823a
+  ObjectMapper: a07ad0462c5adf014adc0f89ef04c29b626e855e
+  OHHTTPStubs: 592f74439d2d72615115cf99a954237a3fbe26e5
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 68f0670af8969d780c8f22960a1733eea134760f
+
+COCOAPODS: 1.1.0.beta.1

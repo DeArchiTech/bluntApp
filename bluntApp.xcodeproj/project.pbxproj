@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12E24D5459B5C4EDF806F7B9 /* Pods_bluntApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B21875ADEC1CD41579345C2 /* Pods_bluntApp.framework */; };
+		0DC6BB4261F7B389090A6291 /* libPods-bluntAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A69014B8BA1FB552D96E9F6 /* libPods-bluntAppUITests.a */; };
 		22277D711D66BD28004167E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22277D701D66BD28004167E8 /* AppDelegate.swift */; };
 		22277D731D66BD28004167E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22277D721D66BD28004167E8 /* ViewController.swift */; };
 		22277D761D66BD28004167E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22277D741D66BD28004167E8 /* Main.storyboard */; };
 		22277D781D66BD28004167E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22277D771D66BD28004167E8 /* Assets.xcassets */; };
 		22277D7B1D66BD28004167E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22277D791D66BD28004167E8 /* LaunchScreen.storyboard */; };
-		22277D861D66BD29004167E8 /* bluntAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22277D851D66BD29004167E8 /* bluntAppTests.swift */; };
 		22277D911D66BD29004167E8 /* bluntAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22277D901D66BD29004167E8 /* bluntAppUITests.swift */; };
+		223C8EBC1D68EA8E00C6C1C8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223C8EBB1D68EA8E00C6C1C8 /* APIManager.swift */; };
+		2275AAFC1D68F1260094F4F8 /* APIManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AAFB1D68F1260094F4F8 /* APIManagerTest.swift */; };
+		2275AAFE1D68F6D70094F4F8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2275AAFD1D68F6D70094F4F8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		2275AB001D6904BB0094F4F8 /* APIonCompleteCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AAFF1D6904BB0094F4F8 /* APIonCompleteCallBack.swift */; };
+		2A705E99EA7EA0EA4F76840A /* Pods_bluntApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D0D71C67CE2F3D115BAC32 /* Pods_bluntApp.framework */; };
+		F156CE30F9F3190CBFF53146 /* libPods-bluntAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F21724CD7E3EAE4BE8AA13 /* libPods-bluntAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F15FEA21A0021603C8407B8 /* Pods-bluntApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bluntApp/Pods-bluntApp.debug.xcconfig"; sourceTree = "<group>"; };
+		20F858662733299015118562 /* Pods-bluntApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-bluntApp/Pods-bluntApp.release.xcconfig"; sourceTree = "<group>"; };
 		22277D6D1D66BD28004167E8 /* bluntApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluntApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22277D701D66BD28004167E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22277D721D66BD28004167E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,13 +49,22 @@
 		22277D7A1D66BD28004167E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22277D7C1D66BD28004167E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22277D811D66BD29004167E8 /* bluntAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluntAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22277D851D66BD29004167E8 /* bluntAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluntAppTests.swift; sourceTree = "<group>"; };
 		22277D871D66BD29004167E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22277D8C1D66BD29004167E8 /* bluntAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluntAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22277D901D66BD29004167E8 /* bluntAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluntAppUITests.swift; sourceTree = "<group>"; };
 		22277D921D66BD29004167E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B21875ADEC1CD41579345C2 /* Pods_bluntApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bluntApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7BB75C9B63D346AE6F077DA /* Pods-bluntApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-bluntApp/Pods-bluntApp.release.xcconfig"; sourceTree = "<group>"; };
+		223C8EBB1D68EA8E00C6C1C8 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2275AAFB1D68F1260094F4F8 /* APIManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerTest.swift; sourceTree = "<group>"; };
+		2275AAFD1D68F6D70094F4F8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/bluntApp-fgmxvuinthmbyybezicunhiiiqgj/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		2275AAFF1D6904BB0094F4F8 /* APIonCompleteCallBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIonCompleteCallBack.swift; sourceTree = "<group>"; };
+		338CBC93F0B2821EF45307A2 /* Pods-bluntAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bluntAppUITests/Pods-bluntAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59D0D71C67CE2F3D115BAC32 /* Pods_bluntApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bluntApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69014B8BA1FB552D96E9F6 /* libPods-bluntAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bluntAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF69C05B926E1FC58563E96 /* Pods-bluntAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bluntAppUITests/Pods-bluntAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C233C0229C527E3FB3E500EF /* Pods-bluntAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bluntAppTests/Pods-bluntAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5EF448D23697DE41336A4CC /* Pods-bluntAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bluntAppTests/Pods-bluntAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9F21724CD7E3EAE4BE8AA13 /* libPods-bluntAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bluntAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3DFDDEB4238460962340AD /* Pods-bluntApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bluntApp/Pods-bluntApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E24D5459B5C4EDF806F7B9 /* Pods_bluntApp.framework in Frameworks */,
+				2275AAFE1D68F6D70094F4F8 /* SwiftyJSON.framework in Frameworks */,
+				2A705E99EA7EA0EA4F76840A /* Pods_bluntApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F156CE30F9F3190CBFF53146 /* libPods-bluntAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC6BB4261F7B389090A6291 /* libPods-bluntAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +103,8 @@
 				22277D841D66BD29004167E8 /* bluntAppTests */,
 				22277D8F1D66BD29004167E8 /* bluntAppUITests */,
 				22277D6E1D66BD28004167E8 /* Products */,
-				8F5A7CE42D70F273C701727D /* Pods */,
-				43787DDE7422E2B1BECEBE4D /* Frameworks */,
+				25769ABD6150DD5EEB1FF9B1 /* Pods */,
+				6B95AB7D3B71D2E68C97073C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,8 +141,8 @@
 		22277D841D66BD29004167E8 /* bluntAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				22277D851D66BD29004167E8 /* bluntAppTests.swift */,
 				22277D871D66BD29004167E8 /* Info.plist */,
+				2275AAFB1D68F1260094F4F8 /* APIManagerTest.swift */,
 			);
 			path = bluntAppTests;
 			sourceTree = "<group>";
@@ -142,6 +159,8 @@
 		223C8EB21D68E8E600C6C1C8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				223C8EBB1D68EA8E00C6C1C8 /* APIManager.swift */,
+				2275AAFF1D6904BB0094F4F8 /* APIonCompleteCallBack.swift */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -204,21 +223,28 @@
 			name = Structs;
 			sourceTree = "<group>";
 		};
-		43787DDE7422E2B1BECEBE4D /* Frameworks */ = {
+		25769ABD6150DD5EEB1FF9B1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B21875ADEC1CD41579345C2 /* Pods_bluntApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8F5A7CE42D70F273C701727D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1F15FEA21A0021603C8407B8 /* Pods-bluntApp.debug.xcconfig */,
-				C7BB75C9B63D346AE6F077DA /* Pods-bluntApp.release.xcconfig */,
+				FF3DFDDEB4238460962340AD /* Pods-bluntApp.debug.xcconfig */,
+				20F858662733299015118562 /* Pods-bluntApp.release.xcconfig */,
+				C233C0229C527E3FB3E500EF /* Pods-bluntAppTests.debug.xcconfig */,
+				C5EF448D23697DE41336A4CC /* Pods-bluntAppTests.release.xcconfig */,
+				338CBC93F0B2821EF45307A2 /* Pods-bluntAppUITests.debug.xcconfig */,
+				6EF69C05B926E1FC58563E96 /* Pods-bluntAppUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B95AB7D3B71D2E68C97073C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2275AAFD1D68F6D70094F4F8 /* SwiftyJSON.framework */,
+				59D0D71C67CE2F3D115BAC32 /* Pods_bluntApp.framework */,
+				E9F21724CD7E3EAE4BE8AA13 /* libPods-bluntAppTests.a */,
+				6A69014B8BA1FB552D96E9F6 /* libPods-bluntAppUITests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,12 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22277D951D66BD29004167E8 /* Build configuration list for PBXNativeTarget "bluntApp" */;
 			buildPhases = (
-				9F7F5003B105120914612D07 /* Check Pods Manifest.lock */,
+				3B3A7CD12988AF7C11047E72 /* [CP] Check Pods Manifest.lock */,
 				22277D691D66BD28004167E8 /* Sources */,
 				22277D6A1D66BD28004167E8 /* Frameworks */,
 				22277D6B1D66BD28004167E8 /* Resources */,
-				29107AD78E03D2D348367B60 /* Embed Pods Frameworks */,
-				4C9A875F9DA7574E375AC685 /* Copy Pods Resources */,
+				30040E87D5073C899DFA674E /* [CP] Embed Pods Frameworks */,
+				5E043B64CDCC7F5FA5C00EC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22277D981D66BD29004167E8 /* Build configuration list for PBXNativeTarget "bluntAppTests" */;
 			buildPhases = (
+				5A18333D457B37A9513E6ADC /* [CP] Check Pods Manifest.lock */,
 				22277D7D1D66BD29004167E8 /* Sources */,
 				22277D7E1D66BD29004167E8 /* Frameworks */,
 				22277D7F1D66BD29004167E8 /* Resources */,
+				3C3012577FDA4F513F1AFDB3 /* [CP] Embed Pods Frameworks */,
+				15AD81B32E28C2570BF8084C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,9 +295,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22277D9B1D66BD29004167E8 /* Build configuration list for PBXNativeTarget "bluntAppUITests" */;
 			buildPhases = (
+				057DF3B4FA42C86BE6A38AB0 /* [CP] Check Pods Manifest.lock */,
 				22277D881D66BD29004167E8 /* Sources */,
 				22277D891D66BD29004167E8 /* Frameworks */,
 				22277D8A1D66BD29004167E8 /* Resources */,
+				846A377D5AA6300AEE470E5F /* [CP] Embed Pods Frameworks */,
+				C677711C22456555121CAFBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,14 +383,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29107AD78E03D2D348367B60 /* Embed Pods Frameworks */ = {
+		057DF3B4FA42C86BE6A38AB0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15AD81B32E28C2570BF8084C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bluntAppTests/Pods-bluntAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30040E87D5073C899DFA674E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,14 +428,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bluntApp/Pods-bluntApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C9A875F9DA7574E375AC685 /* Copy Pods Resources */ = {
+		3B3A7CD12988AF7C11047E72 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C3012577FDA4F513F1AFDB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bluntAppTests/Pods-bluntAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A18333D457B37A9513E6ADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E043B64CDCC7F5FA5C00EC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,19 +488,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bluntApp/Pods-bluntApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F7F5003B105120914612D07 /* Check Pods Manifest.lock */ = {
+		846A377D5AA6300AEE470E5F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bluntAppUITests/Pods-bluntAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C677711C22456555121CAFBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bluntAppUITests/Pods-bluntAppUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -403,8 +525,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				223C8EBC1D68EA8E00C6C1C8 /* APIManager.swift in Sources */,
 				22277D731D66BD28004167E8 /* ViewController.swift in Sources */,
 				22277D711D66BD28004167E8 /* AppDelegate.swift in Sources */,
+				2275AB001D6904BB0094F4F8 /* APIonCompleteCallBack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22277D861D66BD29004167E8 /* bluntAppTests.swift in Sources */,
+				2275AAFC1D68F1260094F4F8 /* APIManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +668,7 @@
 		};
 		22277D961D66BD29004167E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F15FEA21A0021603C8407B8 /* Pods-bluntApp.debug.xcconfig */;
+			baseConfigurationReference = FF3DFDDEB4238460962340AD /* Pods-bluntApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bluntApp/Info.plist;
@@ -556,7 +680,7 @@
 		};
 		22277D971D66BD29004167E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7BB75C9B63D346AE6F077DA /* Pods-bluntApp.release.xcconfig */;
+			baseConfigurationReference = 20F858662733299015118562 /* Pods-bluntApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bluntApp/Info.plist;
@@ -568,6 +692,7 @@
 		};
 		22277D991D66BD29004167E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C233C0229C527E3FB3E500EF /* Pods-bluntAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = bluntAppTests/Info.plist;
@@ -580,6 +705,7 @@
 		};
 		22277D9A1D66BD29004167E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5EF448D23697DE41336A4CC /* Pods-bluntAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = bluntAppTests/Info.plist;
@@ -592,6 +718,7 @@
 		};
 		22277D9C1D66BD29004167E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338CBC93F0B2821EF45307A2 /* Pods-bluntAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = bluntAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -603,6 +730,7 @@
 		};
 		22277D9D1D66BD29004167E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF69C05B926E1FC58563E96 /* Pods-bluntAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = bluntAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

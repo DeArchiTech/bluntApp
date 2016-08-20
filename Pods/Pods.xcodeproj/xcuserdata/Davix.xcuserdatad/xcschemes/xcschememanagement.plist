@@ -9,7 +9,37 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-bluntApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-bluntAppTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-bluntAppUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0189D85631D26D1E1503E5F84A0FA24B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1469012BAF6CAE40359025F6C948438C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1520003FEBEC114D6C84F832AFEDB994</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77989413E517995177CFB1E313F66AD1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F03449F658F892C5F6A0C371EEEB8443</key>
+		<key>8E618CDD435F6D04A3C1478A317E5846</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A99B299BBDB8C3243BCB6A3F0FF5C8AD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C31A540DD6DB56404A28511F9FCEB0D2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
