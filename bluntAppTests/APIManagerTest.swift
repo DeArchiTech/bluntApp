@@ -84,9 +84,21 @@ class APIManagerTest: XCTestCase {
         //If test delegate is fired successfully , it will remove this timer
         //self.waitForExpectationsWithTimeout(15.0, handler:nil)
 
-
     }
     
+    func testGetFilteredUsers() {
+        
+        //**Success Case set up
+        
+        self.testingForPass = true
+        
+        //Test Function Fired successfully
+        self.expectation = self.expectationWithDescription("Get User Network Call")
+        XCTAssertTrue(self.apiManager!.getUsers("1"))
+        
+        //If test delegate is fired successfully , it will remove this timer
+        self.waitForExpectationsWithTimeout(15.0, handler:nil)
+        
+    }
     
-
 }

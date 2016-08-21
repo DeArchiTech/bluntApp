@@ -18,6 +18,9 @@
 		2275AAFC1D68F1260094F4F8 /* APIManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AAFB1D68F1260094F4F8 /* APIManagerTest.swift */; };
 		2275AAFE1D68F6D70094F4F8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2275AAFD1D68F6D70094F4F8 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		2275AB001D6904BB0094F4F8 /* APIonCompleteCallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AAFF1D6904BB0094F4F8 /* APIonCompleteCallBack.swift */; };
+		2275AB021D6930F40094F4F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AB011D6930F40094F4F8 /* LoginViewController.swift */; };
+		2275AB041D6931330094F4F8 /* SearchFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AB031D6931330094F4F8 /* SearchFilterViewController.swift */; };
+		2275AB061D6931540094F4F8 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275AB051D6931540094F4F8 /* UserListViewController.swift */; };
 		2A705E99EA7EA0EA4F76840A /* Pods_bluntApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D0D71C67CE2F3D115BAC32 /* Pods_bluntApp.framework */; };
 		F156CE30F9F3190CBFF53146 /* libPods-bluntAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F21724CD7E3EAE4BE8AA13 /* libPods-bluntAppTests.a */; };
 /* End PBXBuildFile section */
@@ -57,6 +60,9 @@
 		2275AAFB1D68F1260094F4F8 /* APIManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerTest.swift; sourceTree = "<group>"; };
 		2275AAFD1D68F6D70094F4F8 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/bluntApp-fgmxvuinthmbyybezicunhiiiqgj/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		2275AAFF1D6904BB0094F4F8 /* APIonCompleteCallBack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIonCompleteCallBack.swift; sourceTree = "<group>"; };
+		2275AB011D6930F40094F4F8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2275AB031D6931330094F4F8 /* SearchFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFilterViewController.swift; sourceTree = "<group>"; };
+		2275AB051D6931540094F4F8 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		338CBC93F0B2821EF45307A2 /* Pods-bluntAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bluntAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bluntAppUITests/Pods-bluntAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		59D0D71C67CE2F3D115BAC32 /* Pods_bluntApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bluntApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A69014B8BA1FB552D96E9F6 /* libPods-bluntAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bluntAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +188,9 @@
 		223C8EB51D68E90300C6C1C8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2275AB011D6930F40094F4F8 /* LoginViewController.swift */,
+				2275AB031D6931330094F4F8 /* SearchFilterViewController.swift */,
+				2275AB051D6931540094F4F8 /* UserListViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -525,9 +534,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2275AB061D6931540094F4F8 /* UserListViewController.swift in Sources */,
 				223C8EBC1D68EA8E00C6C1C8 /* APIManager.swift in Sources */,
 				22277D731D66BD28004167E8 /* ViewController.swift in Sources */,
 				22277D711D66BD28004167E8 /* AppDelegate.swift in Sources */,
+				2275AB021D6930F40094F4F8 /* LoginViewController.swift in Sources */,
+				2275AB041D6931330094F4F8 /* SearchFilterViewController.swift in Sources */,
 				2275AB001D6904BB0094F4F8 /* APIonCompleteCallBack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

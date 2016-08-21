@@ -54,4 +54,41 @@ class APIManager{
         return true;
         
     }
+    
+    func getFilteredUsers(userId : String) -> Bool {
+        
+        let manager = Alamofire.Manager.sharedInstance
+        let urlstring = "http://localhost:3000/users/" + userId
+        let parameters: [String: AnyObject] = [
+            "user": [ "latitude" : "51.5" , "longitude" : "0.128" ]
+        ]
+        manager.request(.GET, urlstring, parameters: parameters, encoding: .JSON)
+            .responseJSON { response in
+                print(response.request)  // original URL request
+                print(response.response) // URL response
+                print(response.data)     // server data
+                print(response.result)   // result of response serialization
+                
+                switch response.result {
+                case .Success:
+                    
+                    print("Validation Successful")
+                    print(response)
+                    self.delegate.onNetworkSuccess((response.data)!)
+                    //FIRE SUCCESS DELEGATE
+                    
+                    
+                case .Failure(let error):
+                    
+                    print(error)
+                    self.delegate.onNetworkFailure(404, message: "Network Called Failed")
+                    //FIRE FAILURE DELEGATE
+                    
+                }
+        }
+        
+        return true;
+        
+    }
+    
 }
