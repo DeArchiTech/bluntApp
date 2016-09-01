@@ -94,7 +94,7 @@ class APIManagerTest: XCTestCase {
         
         //Test Function Fired successfully
         self.expectation = self.expectationWithDescription("Get User Network Call")
-        XCTAssertTrue(self.apiManager!.getUsers("1"))
+        XCTAssertTrue(self.apiManager!.getFilteredUsers("1"));
         
         //If test delegate is fired successfully , it will remove this timer
         self.waitForExpectationsWithTimeout(15.0, handler:nil)
